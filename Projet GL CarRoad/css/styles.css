@@ -1,0 +1,78 @@
+/* Body styles */
+body {
+  background-color: #f7f7f7;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Card styles */
+.card {
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Card header styles */
+.card-header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header h2 styles */
+.card-header h2 {
+  margin: 0;
+}
+
+/* Card body styles */
+.card-body {
+  padding: 20px;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2185d0;
+}

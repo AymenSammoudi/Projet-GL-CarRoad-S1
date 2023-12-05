@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Admin Interface</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Ajouter un nouveau modèle de voiture</h2>
+    </div>
+    <div class="card-body">
+      <form id="addCarForm">
+        <div class="form-group">
+          <label for="modelName">Nom du modèle :</label>
+          <input type="text" class="form-control" id="modelName" required>
+        </div>
+        <div class="form-group">
+          <label for="manufacturer">Fabricant :</label>
+          <input type="text" class="form-control" id="manufacturer" required>
+        </div>
+        <div class="form-group">
+          <label for="year">Année :</label>
+          <input type="number" class="form-control" id="year" required>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="addCarModel()">Ajouter le modèle</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="../js/scripts.js"></script>
+</body>
+</html>

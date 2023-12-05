@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord Administrateur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .statistics {
+            margin-top: 20px;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tableau de Bord Administrateur</h1>
+    </header>
+
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Annonces</a>
+        <a href="#">Utilisateurs</a>
+        <a href="#">Paramètres</a>
+        <a href="#">Déconnexion</a>
+    </nav>
+
+    <main>
+        <div class="dashboard">
+            <div class="card">
+                <h2>Annonces</h2>
+                <p>Nombre d'annonces actives : 50</p>
+                <p>Dernière annonce ajoutée : [Nom de l'annonce]</p>
+                <!-- Autres informations sur les annonces -->
+            </div>
+
+            <div class="card">
+                <h2>Utilisateurs</h2>
+                <p>Nombre total d'utilisateurs : 100</p>
+                <p>Nouveaux utilisateurs aujourd'hui : 5</p>
+                <!-- Autres informations sur les utilisateurs -->
+            </div>
+
+            <!-- Ajoutez d'autres cartes pour afficher différentes informations du tableau de bord -->
+
+            <div class="statistics">
+                <h2>Statistiques Générales</h2>
+                <p>Nombre total d'annonces : 200</p>
+                <p>Nombre d'utilisateurs actifs : 150</p>
+                <p>Taux d'utilisation du site : 75%</p>
+                <!-- Ajoutez d'autres statistiques pertinentes -->
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
